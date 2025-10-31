@@ -1,7 +1,7 @@
 <template>
   <div class="fondo-intereses"></div>
   <div class="links">
-        <a href="https://dev.to/uuuuuulala/making-background-blob-animation-in-just-15kb-step-by-step-guide-2482"
+        <a href="https://github.com/HugoZanatta95"
             target="_blank"><img class="icon" src="https://ksenia-k.com/img/icons/link.svg"></a>
     </div>
 </template>

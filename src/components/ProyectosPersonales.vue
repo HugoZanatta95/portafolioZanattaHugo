@@ -9,8 +9,8 @@ misProyectos.value = ([
         src: proyecto1,
         titulo: "Blog Personal con VUE (2025)",
         descripcion: "Construí un blog personal con un menu personalizado en VS Code con la ayuda de VUE",
-        projectoLink: "https://github.com/HugoZanatta95",
-        githubLink: "https://github.com/HugoZanatta95",
+        proyectoLink: "https://github.com/HugoZanatta95",
+        githubLink: "https://github.com/HugoZanatta95/portafolioZanattaHugo.git",
     }    
 ])
 </script>
@@ -23,7 +23,7 @@ misProyectos.value = ([
                 <h3>{{ proyecto.titulo }}</h3>
                 <p>{{ proyecto.descripcion }}</p>
                 <div class="proyecto-links">
-                    <a :href="proyecto.projectoLink" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
+                    <a :href="proyecto.proyectoLink" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
                     <a :href="proyecto.githubLink" class="github-link" target="_blank" rel="noopener noreferrer"><img :src="githubLink" alt="GitHub" class="github-icon" />Ver Código en GitHub</a>                       
                 </div>
             </div>
