@@ -9,10 +9,10 @@ const descripcion = "Profesor de Tecnologías";
 const residencia = "San Rafael, Mendoza, Argentina";
 const presentacion = "Bienvenidos a mi portafolio elaborado para poder presentarlo en el segundo semestre de la Tecnicatura en Programación";
 const redesSociales = [
-  { id: 1, name: linkedin, src: "/src/components/icons/linkedin_icon.svg", url: "https://www.linkedin.com/in/hugo-jeús-zanatta-lopez-2030b9359" },
-  { id: 2, name: instagram, src: "/src/components/icons/instagram_icon.svg", url: "https://www.instagram.com/zanattahugo?igsh=cTl2dGV4Mjh0cGN3" },
-  { id: 3, name: github, src: "/src/components/icons/github_icon.svg", url: "https://github.com/HugoZanatta95" },
-  { id: 4, name: cv, src: "/src/components/icons/cv_resume_icon.svg", url: "" },
+  { id: 1, name: linkedin, src: linkedin, url: "https://www.linkedin.com/in/hugo-jeús-zanatta-lopez-2030b9359" },
+  { id: 2, name: instagram, src: instagram, url: "https://www.instagram.com/zanattahugo?igsh=cTl2dGV4Mjh0cGN3" },
+  { id: 3, name: github, src: github, url: "https://github.com/HugoZanatta95" },
+  { id: 4, name: cv, src: cv, url: "" },
 ];
 const telefono = "+54 9 2604-043319";
 </script>

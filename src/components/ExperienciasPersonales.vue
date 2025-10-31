@@ -1,13 +1,19 @@
 <script setup>
+import icono1 from "/src/assets/ProfTec.svg";
+import icono2 from "/src/assets/AtnPubli.svg";
+import icono3 from "/src/assets/Bodeg.svg";
+import icono4 from "/src/assets/Desarrollador.svg";
+import icono5 from "/src/assets/ProyectoPersonal.svg";
+
 import {ref} from "vue";
 const titulo="Profesor en Tecnologías";
 const fecha="Desde2020 / 2025";
 const experiencias= ref([
-    {id:1, src: "/src/assets/ProfTec.svg", parrafo: "Profesor en Tecnologías (desde 2021): Diseño e implementación de clases prácticas orientadas a la comprensión de herramientas digitales y pensamiento lógico. Formación en informática básica y aplicaciones educativas."},
-    {id:2, src: "/src/assets/AtnPubli.svg", parrafo: "Atención al Cliente en Cadena de Supermercados y Andesmar (2020 / 2022): Asesoramiento personalizado y resolución de incidencias, priorizando la satisfacción del cliente y la eficiencia en el servicio."},
-    {id:3, src: "/src/assets/Bodeg.svg", parrafo: "Encargado de Almacén en Bodega de Vinos (2022 / 2024): Gestión de inventarios, control de stock y coordinación logística interna. Implementación de mejoras en la organización del depósito y seguimiento de trazabilidad de productos."},
-    {id:4, src: "/src/assets/Desarrollador.svg", parrafo: "Desarrollador en formación / Tecnicatura Universitaria en Programación (2025): Creación de proyectos integradores en Python, Java y Vue.js, aplicando principios de programación estructurada y orientada a objetos."},
-    {id:5, src: "/src/assets/ProyectoPersonal.svg", parrafo: "Proyecto personal: Portafolio Web Interactivo (2025): Desarrollo de un sitio personal con Vue, implementando componentes personalizados, animaciones y diseño responsivo. Integración de una línea de tiempo interactiva para mostrar formación y trayectoria."},
+    {id:1, src: icono1, parrafo: "Profesor en Tecnologías (desde 2021): Diseño e implementación de clases prácticas orientadas a la comprensión de herramientas digitales y pensamiento lógico. Formación en informática básica y aplicaciones educativas."},
+    {id:2, src: icono2, parrafo: "Atención al Cliente en Cadena de Supermercados y Andesmar (2020 / 2022): Asesoramiento personalizado y resolución de incidencias, priorizando la satisfacción del cliente y la eficiencia en el servicio."},
+    {id:3, src: icono3, parrafo: "Encargado de Almacén en Bodega de Vinos (2022 / 2024): Gestión de inventarios, control de stock y coordinación logística interna. Implementación de mejoras en la organización del depósito y seguimiento de trazabilidad de productos."},
+    {id:4, src: icono4, parrafo: "Desarrollador en formación / Tecnicatura Universitaria en Programación (2025): Creación de proyectos integradores en Python, Java y Vue.js, aplicando principios de programación estructurada y orientada a objetos."},
+    {id:5, src: icono5, parrafo: "Proyecto personal: Portafolio Web Interactivo (2025): Desarrollo de un sitio personal con Vue, implementando componentes personalizados, animaciones y diseño responsivo. Integración de una línea de tiempo interactiva para mostrar formación y trayectoria."},
 ])
 </script>
 
