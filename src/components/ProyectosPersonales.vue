@@ -9,7 +9,7 @@ misProyectos.value = ([
         src: proyecto1,
         titulo: "Blog Personal con VUE (2025)",
         descripcion: "Construí un blog personal con un menu personalizado en VS Code con la ayuda de VUE",
-        proyectoLink: "hhttps://app.netlify.com/projects/portafoliozanattahugo/configuration/general",
+        proyectoLink: "https://portafoliozanattahugo.netlify.app",
         githubLink: "https://github.com/HugoZanatta95/portafolioZanattaHugo.git",
     }    
 ])
